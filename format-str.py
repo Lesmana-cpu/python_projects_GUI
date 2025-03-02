@@ -3,7 +3,6 @@
 # contoh generic
 
 #string
-from pickletools import decimalnl_long
 
 
 nama = 'Lesmana 777'
