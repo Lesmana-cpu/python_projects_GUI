@@ -50,7 +50,7 @@ nama_belakang_entry.pack(padx=10, fill="x", expand=True)
 def tombol_click():
     # print(f"hai {NAMA_DEPAN.get()} {NAMA_TENGAH.get()} {NAMA_BELAKANG.get()}")    # <-- ini outpunya ke terminal
     
-    pesan = f"Hai!, {NAMA_DEPAN.get()} {NAMA_TENGAH.get()} {NAMA_BELAKANG.get()}, You so goodloking!!"
+    pesan = f"Hai!, {NAMA_DEPAN.get()} {NAMA_TENGAH.get()} {NAMA_BELAKANG.get()}, You suki!!"
     si(title="for you", message=pesan)
  
 sapa_button = ttk.Button(input_frame, text="Sapa", command=tombol_click)
